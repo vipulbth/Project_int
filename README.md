@@ -11,3 +11,5 @@ Networking and routing: Set up an internet gateway to allow internet access for 
 SSH key pair and access control: Generate an SSH key pair and securely store the private key. Configure the instances to allow SSH access only with the generated key pair.
 did secure copy of ssh from local to bastion host for connecting the web-app and DB
 Test and validate the setup: SSH into the EC2 instances using the private key and verify connectivity. Test network connectivity between instances in different subnets. Validate security group rules and network ACL settings
+now created the target gorup and open port 8000 where my python3 is running 
+then created application load balancer in public subnet and added the target group using this i'm able to access the application in comment i'm adding all the attachments 
